@@ -3,13 +3,13 @@
 " 
 " Author: Anders Thøgersen
 " Email: NaOnSdPeArMslt@gmail.com -- remove the capitol letters
-" Last Change: 12-Okt-2004
-" Version:     0.4
+" Last Change: 28-May-2005
+" Version:     0.7
 "
 " Licence: This program is public domain; 
 "
 " Download From:
-" http://www.vim.org/scripts/script.php?script_id=??
+" http://www.vim.org/scripts/script.php?script_id=1292
 " 
 " Description:
 " 
@@ -138,7 +138,7 @@ call <SID>KeywordsAddMap('>',  "<", ">")
 call <SID>KeywordsAddMap('[',  "[", "]")
 call <SID>KeywordsAddMap('{',  "(", ")")
 call <SID>KeywordsAddMap('(',  "{", "}") 
-call <SID>KeywordsAddMap('<',  "<", ">") " for tags
+call <SID>KeywordsAddMap('\<',  "\<", "\>") " for tags
 
 nnoremap <silent> wq :call <SID>KeywordsUnQuote()<CR>
 
